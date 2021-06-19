@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "935522090242",
+    "project_id": "shurife-eano",
+    "storage_bucket": "shurife-eano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935522090242:android:2ccd288d1c22f8ada0161b",
+        "android_client_info": {
+          "package_name": "com.eano.shurife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935522090242-dvbu7h9ivr1h8h3oqi1jhrum9e0tf0d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eano.shurife",
+            "certificate_hash": "ab64e90c587b8eb4948afdda6063db77ba63afba"
+          }
+        },
+        {
+          "client_id": "935522090242-k54550j216oea36qa9oe7q6a8su1sqgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlayuctbKu9ykpteZ1UEO964IFzKPV6F8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935522090242-k54550j216oea36qa9oe7q6a8su1sqgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

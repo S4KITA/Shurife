@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,9 +26,14 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.mButtonSignIn:
+                if (mEditTextID.getText().length() == 0) {
+                    Toast.makeText(this, "익명의 사용자님 어서오세요.", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(this, mEditTextID.getText()+"님 어서오세요.", Toast.LENGTH_SHORT).show();
+                }
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent); // 다음화면으로 넘어가기
-                finish(); // Activity 화면 제거
+                startActivity(intent);
+                finish();
                 break;
 
             default:
